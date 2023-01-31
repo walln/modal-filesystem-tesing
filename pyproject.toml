@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "modal-fs-testing"
+version = "0.1.0"
+description = ""
+authors = ["Nick <46641379+walln@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "modal_fs_testing"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+ruff = "^0.0.238"
+pre-commit = "^3.0.2"
+commitizen = "^2.40.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
