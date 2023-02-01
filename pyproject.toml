@@ -8,6 +8,12 @@ packages = [{include = "modal_fs_testing"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+modal-client = "^0.45.1028"
+modal = "^0.4.1"
+torchvision = "^0.14.1"
+pytorch-lightning = "1.6.0"
+lightning-bolts = "0.4.0"
+protobuf = "3.20.0"
 
 
 [tool.poetry.group.dev.dependencies]
