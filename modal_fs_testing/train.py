@@ -53,4 +53,4 @@ def train_model(model_name: str):
 
 @stub.local_entrypoint
 def main():
-    print("Success: ", train_model.call("model-a"))
+    print("Success: ", train_model.call("model-b"))
